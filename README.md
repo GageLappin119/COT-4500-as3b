@@ -31,27 +31,27 @@ How to Use
 
 ### Implemented Algorithms
 
-## 1. Gaussian Elimination
+  #### 1. Gaussian Elimination
 
-  Solves a system of linear equations using the Gaussian elimination method.
-  
-  Test Case: Solves Ax = B for a given coefficient matrix A and constant vector B.
+    Solves a system of linear equations using the Gaussian elimination method.
     
-## 2. LU Factorization
+    Test Case: Solves Ax = B for a given coefficient matrix A and constant vector B.
+    
+  #### 2. LU Factorization
 
-  Decomposes a square matrix A into a lower triangular matrix L and an upper triangular matrix U.
-  
-  Test Case: Computes LU decomposition and determinant for a given matrix.
+    Decomposes a square matrix A into a lower triangular matrix L and an upper triangular matrix U.
+    
+    Test Case: Computes LU decomposition and determinant for a given matrix.
 
-## 3. Diagonal Dominance Check
+  #### 3. Diagonal Dominance Check
 
-  Determines whether a given square matrix is diagonally dominant.
-  
-  Test Case: Checks a sample matrix and returns True or False.
+    Determines whether a given square matrix is diagonally dominant.
+    
+    Test Case: Checks a sample matrix and returns True or False.
 
-## 4. Positive Definiteness Check
+  #### 4. Positive Definiteness Check
 
-  Verifies if a matrix is symmetric and positive definite using the Cholesky decomposition method.
-  
-  Test Case: Tests a given matrix for positive definiteness.
+    Verifies if a matrix is symmetric and positive definite using the Cholesky decomposition method.
+    
+    Test Case: Tests a given matrix for positive definiteness.
 
