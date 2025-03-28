@@ -49,7 +49,7 @@ Also includes test cases for verification and solution output.
 
   #### 4. Positive Definiteness Check
 
-    Verifies if a matrix is symmetric and positive definite using the Cholesky decomposition method.
+    Verifies if a matrix is symmetric and positive definite.
     
     Test Case: Tests a given matrix for positive definiteness.
 
