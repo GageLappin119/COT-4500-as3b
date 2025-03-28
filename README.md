@@ -3,31 +3,31 @@
 Contains implementations of numerical algorithms related to linear systems.
 Also includes test cases for verification and solution output.
 
-Directory Structure
+#### Directory Structure
 
-  src/main/: Contains the main implementation code.
-  
-  src/test/: Contains test cases for the algorithms.
+    src/main/: Contains the main implementation code.
+    
+    src/test/: Contains test cases for the algorithms.
 
-How to Use
+#### How to Use
 
 ### Install Dependencies
 
-  Ensure you have Python installed (3.6 or higher).
-  
-  Install required dependencies by running the following command inside the root folder:
-  
-  pip3 install -r requirements.txt
-  
-  (Use pip instead of pip3 if the command does not work.)
+    Ensure you have Python installed (3.6 or higher).
+    
+    Install required dependencies by running the following command inside the root folder:
+    
+    pip3 install -r requirements.txt
+    
+    (Use pip instead of pip3 if the command does not work.)
 
 ### Running Tests
 
-  To execute the test cases, navigate to the test folder and run:
-  
-  python3 test_assignments_2.py
-  
-  (Default values are provided in the test cases.)
+    To execute the test cases, navigate to the test folder and run:
+    
+    python3 test_assignments_2.py
+    
+    (Default values are provided in the test cases.)
 
 ### Implemented Algorithms
 
