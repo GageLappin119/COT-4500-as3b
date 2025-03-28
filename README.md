@@ -9,9 +9,7 @@ Also includes test cases for verification and solution output.
     
     src/test/: Contains test cases for the algorithms.
 
-#### How to Use
-
-### Install Dependencies
+#### Install Dependencies
 
     Ensure you have Python installed (3.6 or higher).
     
@@ -25,7 +23,7 @@ Also includes test cases for verification and solution output.
 
     To execute the test cases, navigate to the test folder and run:
     
-    python3 test_assignments_2.py
+    python3 test_assignment_3.py
     
     (Default values are provided in the test cases.)
 
