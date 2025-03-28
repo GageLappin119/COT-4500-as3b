@@ -45,8 +45,9 @@ def Positive_Definite(matrix):
     if len(matrix) != len(matrix[0]) or not np.allclose(matrix, matrix.T):
         return False
     
-    try:
-        np.linalg.cholesky(matrix)
-        return True
-    except np.linalg.LinAlgError:
-        return False
+    eigenvalues = np.linalg.eigvals(matrix)
+
+    for i in range(len(eigenvalues)):
+        if eigenvalues[i] < 0:
+            return False
+    return True
